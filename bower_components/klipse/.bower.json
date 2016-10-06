@@ -1,0 +1,46 @@
+{
+  "name": "klipse",
+  "homepage": "https://github.com/viebel/klipse",
+  "authors": [
+    "(Yehonathan Sharvit <viebel@gmail.com>)"
+  ],
+  "description": "a simple client-side code evaluator pluggable on any web page.",
+  "main": [
+    "dist/klipse_plugin.min.js",
+    "dist/codemirror.css"
+  ],
+  "keywords": [
+    "clojure",
+    "clojurescript",
+    "ruby",
+    "python",
+    "evaluator"
+  ],
+  "moduleType": "globals",
+  "license": "GNU GPL",
+  "ignore": [
+    "*.txt",
+    "*.md ",
+    "*.clj*",
+    "*.yml",
+    "*.html",
+    "demos",
+    "docs",
+    "images",
+    "resources",
+    "scripts",
+    "src",
+    "test"
+  ],
+  "version": "3.1.7",
+  "_release": "3.1.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.1.7",
+    "commit": "ea0f0c15b288b1d746c18cac1d37ae9f790be519"
+  },
+  "_source": "https://github.com/viebel/klipse.git",
+  "_target": "^3.1.7",
+  "_originalSource": "klipse",
+  "_direct": true
+}

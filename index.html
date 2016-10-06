@@ -5,14 +5,24 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="bower_components/deck.js/themes/style/neon.css">
         <link rel="stylesheet" href="bower_components/deck.js/themes/transition/horizontal-slide.css">
+        <link rel="stylesheet" href="bower_components/klipse/dist/codemirror.css">
     </head>
     <body>
-        <div class=".slide">
-            <h1>Solving the Rubiks Cube</h1>
+        <div class="deck-container">
+            <div class="slide">
+                <h1>Solving the Rubiks Cube</h1>
+            </div>
+            <div class="slide">
+                <pre>
+                    <code class="clojure">(+ 1 2 3)</code>
+                </pre>
+            </div>
         </div>
         <script src="bower_components/deck.js/jquery.min.js"></script>
         <script src="bower_components/deck.js/modernizr.custom.js"></script>
         <script src="bower_components/deck.js/core/deck.core.js"></script>
-        <script src="js/application.js"></script>
+        <script src="resources/js/klipse_settings.js"></script>
+        <script src="bower_components/klipse/dist/klipse_plugin.js"></script>
+        <script src="resources/js/application.js"></script>
     </body>
 </html>
