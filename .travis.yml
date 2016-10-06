@@ -1,0 +1,11 @@
+language: bash
+sudo: false
+script:
+  - echo "nothing to do"
+after_success: |
+  [ $TRAVIS_BRANCH = master ] &&
+  bash deploy-documentation.sh
+env:
+  global:
+    - secure: >-
+        XR2CRohdno/VAdUEnyxyYYgb+I2yJHtgJtxUnirH32zwUdFrohiBvxpV8KpHK/g3YPkqwdUaPVDxHMpqh9gzKi8U1dAXH3cbYQhuGLnhgW2deHBaf3k7W7Y7/iRdGUhAF6QBV7cF6i1N9frB6ikbiOtaYJDFt7GkIv+I0/l3pvzA9D3zaKQgTVqRgfUOqW09raVxhidCgZvHQ960NNpm0NWmzn1NnefeksWz+yCIJ/8luYv/rcEdF1YIX5nFrKS8yj3WPP/y7/Tv/c4cpPQ1Ue7g/4p0xKUs55PaqFRI+W3+hGNqxoym8RJCxKjecoVYQJt8HBo6B7RB3y2UT4qhdw19eqOX5N0I9rSLadphPMZpuuUSafjFpvkXZPItx/Z4EZoUsR/1UOCkDKPUc/QP4ZRa2TAXOVEiai1kQLUSfV1jKdlNeEgvoqLHDnOC/bP8fM0P7HPODvfMTHfLAcSnYwrFAbCZx8FVWFc/VamXolLc4KI4p6MoDBJhAO22UmPjLTl7QExkoLROnqSWvI8RQsybIniV5lgPq62OmVYpNbal2m5G3X5UuNhpRt2t05dfZ/kJv6/B7LZg9Fjd7cg4tZAWgedXLVhtxcnfGVEdis0s0yMALEQdIZaILof7TjUPrOu0zZJxshbLBG3mW76ZkcrOFhp6Ryc2EDLO6WSP0oA=
