@@ -11,7 +11,7 @@ rev=$(git rev-parse --short HEAD)
 rm -rf deploy
 mkdir deploy
 cp index.html deploy/
-cp -r js deploy/
+cp -r resources deploy/
 cp -r bower_components deploy/
 
 cd deploy
