@@ -21,6 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "deck.js": "^1.1.0"
+    "deck.js": "^1.1.0",
+    "klipse": "^3.1.7"
   }
 }
