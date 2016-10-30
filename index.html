@@ -14,7 +14,11 @@
             </div>
             <div class="slide">
                 <pre>
-                    <code class="clojure">(+ 1 2 3)</code>
+                    <code class="clojure" data-external-libs="https://raw.githubusercontent.com/fifth-postulate/solving-permutation-puzzles.clojure/master/src/">
+(ns clj.exch
+  (:require [permutation.kernel :refer [multiply]]))
+
+(multiply {0 1, 1 0, 2 2} {0 0, 1 2, 2 1})</code>
                 </pre>
             </div>
         </div>
