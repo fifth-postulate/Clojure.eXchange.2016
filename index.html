@@ -14,17 +14,19 @@
             </div>
             <div class="slide">
                 <pre>
-                    <code class="clojure" data-external-libs="/mathematics/src/">
-(ns clj.exch
-  (:require [permutation.kernel :refer [multiply]]))
-
-(multiply {0 1, 1 0, 2 2} {0 0, 1 2, 2 1})</code>
+                    <code class="clojure" data-snippet="example.clj" data-external-libs="/mathematics/src/"></code>
+                </pre>
+            </div>
+            <div class="slide">
+                <pre>
+                    <code class="clojure" data-snippet="multiply.clj" data-external-libs="/mathematics/src/"></code>
                 </pre>
             </div>
         </div>
         <script src="bower_components/deck.js/jquery.min.js"></script>
         <script src="bower_components/deck.js/modernizr.custom.js"></script>
         <script src="bower_components/deck.js/core/deck.core.js"></script>
+        <script src="resources/js/load-snippets.js"></script>
         <script src="resources/js/klipse_settings.js"></script>
         <script src="bower_components/klipse/dist/klipse_plugin.js"></script>
         <script src="resources/js/application.js"></script>
