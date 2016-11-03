@@ -1,10 +1,18 @@
 (function($){
-    var location = 'resources/snippets/';
-    console.log("loading snippets");
-    $(".clojure").each(function(index, element){
-        var url = location + $(element).data("snippet");
-        $.ajax(url).done(function(data){
-            $(element).html(data);
+    $.fn.load_snippets = function(options){
+        console.log("loading snippets");
+        var settings = $.extend({
+            location: 'resources/snippets/',
+            data: 'snippet'
+        }, options);
+        this.each(function(index, element){
+            var url = settings.location + $(element).data(settings.data);
+            $.ajax(url).done(function(data){
+                $(element).html(data);
+            });
         });
-    });
+
+        return this;
+    };
+    $(".clojure").load_snippets();
 })(jQuery);
