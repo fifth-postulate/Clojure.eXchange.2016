@@ -14,5 +14,4 @@
 
         return this;
     };
-    $(".clojure").load_snippets();
 })(jQuery);
