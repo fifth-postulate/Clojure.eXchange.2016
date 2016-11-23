@@ -3,5 +3,5 @@
     $(".clojure").load_snippets();
 
     var node = $('#plain-brainbow')[0];
-    Elm.Main.embed(node);
+    Elm.Brainbow.embed(node);
 })(jQuery, Elm);
