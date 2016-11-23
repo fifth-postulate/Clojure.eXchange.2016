@@ -1,4 +1,7 @@
-(function($){
+(function($, Elm){
     $.deck('.slide');
     $(".clojure").load_snippets();
-})(jQuery);
+
+    var node = $('#plain-brainbow')[0];
+    Elm.Main.embed(node);
+})(jQuery, Elm);
