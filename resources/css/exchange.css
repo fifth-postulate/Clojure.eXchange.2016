@@ -8,3 +8,7 @@ h1.graffiti {
     margin-left: auto;
     margin-right: auto;
 }
+
+ul.permutation {
+    list-style: none;
+}
