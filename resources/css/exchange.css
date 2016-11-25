@@ -12,3 +12,12 @@ h1.graffiti {
 ul.permutation {
     list-style: none;
 }
+
+ul.permutation li.focus {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+ul.permutation li.intense.focus {
+    font-size: 200%;
+}
