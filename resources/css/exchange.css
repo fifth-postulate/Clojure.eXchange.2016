@@ -21,3 +21,13 @@ ul.permutation li.focus {
 ul.permutation li.intense.focus {
     font-size: 200%;
 }
+
+table, td {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+td {
+    padding: 1em;
+} 
