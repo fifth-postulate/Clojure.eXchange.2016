@@ -6,6 +6,6 @@
 
 (def brainbow (bsgs-for [t s]))
 
-(def puzzle {0 3, 1 0, 2 5, 3 4, 4 1, 5 2})
+(def state {0 3, 1 0, 2 5, 3 4, 4 1, 5 2})
 
-(sift brainbow puzzle)
+(sift brainbow state)
