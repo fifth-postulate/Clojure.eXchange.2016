@@ -8,6 +8,13 @@ h1.graffiti {
     transform: rotate(-12deg)
 }
 
+.slide > .central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #plain-brainbow div, #word-brainbow div {
     margin-left: auto;
     margin-right: auto;
