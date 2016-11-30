@@ -1,3 +1,7 @@
+h1 {
+    font-size: 300%;
+}
+
 h1.graffiti {
     color: #af0;
     text-shadow: 0 0 15px #af0, 0 0 2px #fff;
