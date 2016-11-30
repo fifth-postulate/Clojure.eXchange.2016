@@ -41,4 +41,8 @@ table, td {
 
 td {
     padding: 1em;
-} 
+}
+
+span.central {
+    font-size: 300%;
+}
