@@ -4,7 +4,7 @@ h1.graffiti {
     transform: rotate(-12deg)
 }
 
-#plain-brainbow div {
+#plain-brainbow div, #word-brainbow div {
     margin-left: auto;
     margin-right: auto;
 }

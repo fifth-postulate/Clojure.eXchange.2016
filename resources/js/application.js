@@ -2,6 +2,8 @@
     $.deck('.slide');
     $(".clojure").load_snippets();
 
-    var node = $('#plain-brainbow')[0];
-    Elm.Brainbow.embed(node);
+    var plain = $('#plain-brainbow')[0];
+    Elm.Brainbow.embed(plain);
+    var word = $('#word-brainbow')[0];
+    Elm.Brainbow.embed(word);
 })(jQuery, Elm);
