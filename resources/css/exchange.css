@@ -46,3 +46,9 @@ td {
 span.central {
     font-size: 300%;
 }
+
+.flanked {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
